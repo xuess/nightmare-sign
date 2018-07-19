@@ -11,6 +11,10 @@
 
 喜欢请`star`，不懂的可以提问。懂的朋友，可以按照这个思路开发更多`自动签到`。
 
+
+> 什么值得买自动签到项目 gitbub地址: [https://github.com/xuess/smzdm-sign](https://github.com/xuess/smzdm-sign)
+
+
 # 使用步骤
 
 ### 0.准备环境
@@ -96,7 +100,7 @@ https://github.com/nodemailer/nodemailer-wellknown/blob/master/services.json
 npm i pm2 -g 
 
 #启动签到进程
-pm2 start smzdm.js
+pm2 start main.js
 
 #显示所有进程状态
 pm2 list 
