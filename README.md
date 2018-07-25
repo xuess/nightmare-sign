@@ -1,5 +1,5 @@
 # nightmare-sign
-基于nightmare，京东、苏宁自动签到，自动发邮件，通知日志与报错信息
+基于nodejs、nightmare，京东、苏宁自动签到，自动发邮件，通知日志与报错信息
 
 京东签到，包括小金库、京东会员、京东金融签到，苏宁就是签到领云钻。
 
@@ -11,8 +11,9 @@
 
 喜欢请`star`，不懂的可以提问。懂的朋友，可以按照这个思路开发更多`自动签到`。
 
-
-> 什么值得买自动签到项目 gitbub地址: [https://github.com/xuess/smzdm-sign](https://github.com/xuess/smzdm-sign)
+> 京东、苏宁自动签到项目：[https://github.com/xuess/nightmare-sign](https://github.com/xuess/nightmare-sign)
+>
+> 什么值得买自动签到项目: [https://github.com/xuess/smzdm-sign](https://github.com/xuess/smzdm-sign)
 
 
 # 使用步骤
