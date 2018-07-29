@@ -30,14 +30,14 @@ let sign = (username, password) => {
 		
 		
 		//京东小金库
-		.goto('https://wyyl.jd.com/static/page/html/index.html?sid=')
-		.wait(10000)
-		.click('#J_agree') //同意按钮
-		.wait(5000)
-		.click('.redBtn') //签到按钮
-		.wait(10000)
-		.screenshot('./screenshot/static-jd-jr-' + username + '.png')
-		
+//		.goto('https://wyyl.jd.com/static/page/html/index.html?sid=')
+//		.wait(10000)
+//		.click('#J_agree') //同意按钮
+//		.wait(5000)
+//		.click('.redBtn') //签到按钮
+//		.wait(10000)
+//		.screenshot('./screenshot/static-jd-jr-' + username + '.png')
+
 		//提取信息
 		.evaluate(() => {
 			return '京东签到执行到最后了！';
