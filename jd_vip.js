@@ -29,7 +29,7 @@ let sign = (username, password) => {
 		.wait(10000)
 		
 		
-		//京东小金库
+		//京东小金库 页面没了 2018-7-31
 //		.goto('https://wyyl.jd.com/static/page/html/index.html?sid=')
 //		.wait(10000)
 //		.click('#J_agree') //同意按钮
@@ -37,7 +37,16 @@ let sign = (username, password) => {
 //		.click('.redBtn') //签到按钮
 //		.wait(10000)
 //		.screenshot('./screenshot/static-jd-jr-' + username + '.png')
-
+		
+		
+		// 抓娃娃 2018-7-31 新增
+		.goto('https://m.jr.jd.com/spe/acs/hymSystem/index.html?contentParam=100000318&actCode=D936B07274651F5C4EA67D9A61142F731E1F3505ADCDB6ED2177DDA10B44426155E0086F2112F4093DD18A508C0C452C#/')
+		.wait(10000)
+		.click('.wrap .btn')
+		.wait(10000)
+		.screenshot('./screenshot/static-jd-zhuawawa-' + username + '.png')
+		.wait(10000)
+		
 		//提取信息
 		.evaluate(() => {
 			return '京东签到执行到最后了！';
