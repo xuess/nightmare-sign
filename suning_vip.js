@@ -37,7 +37,7 @@ let sign = (username, password) => {
 		})
 		.catch((error) => {
 			console.error('failed:', error);
-			
+			// 发送错误邮件
 			let errStr = `苏宁报错信息:${error}`;
 			sendMailErr('苏宁签到报错了', errStr);
 			

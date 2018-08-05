@@ -57,6 +57,7 @@ let sign = (username, password) => {
 		})
 		.catch((error) => {
 			console.error('failed:', error);
+			// 错误发送邮件
 			let errStr = `京东签到报错信息: ${error}`;
 			sendMailErr('京东签到签到报错了 ', errStr);
 		});
