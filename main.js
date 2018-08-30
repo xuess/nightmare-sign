@@ -11,7 +11,7 @@ let setTimeSign = (userinfo) => {
 	setTimeout(() => {
 		// 执行签到
 		if(userinfo.type == 'jd'){
-//			jdSign(userinfo.username, userinfo.password);
+			jdSign(userinfo.username, userinfo.password);
 		}else if(userinfo.type == 'suning'){
 			suningSign(userinfo.username, userinfo.password);
 		}
