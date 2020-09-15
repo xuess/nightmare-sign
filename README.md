@@ -1,5 +1,14 @@
 # nightmare-sign
 
+
+什么值得买自动签到 ： 
+> 2020年09月09日
+>
+> 新增一个基于谷歌无头浏览器实现的签到工程，支持smzdm签到。完全模拟人工点击。欢迎尝试。
+>
+> 地址：[https://github.com/xuess/puppeteer-sign](https://github.com/xuess/puppeteer-sign)
+
+
 ##　2018-8-30 更新
 
 > 京东登陆删除登陆验证码，更新代码，放开京东签到功能。
